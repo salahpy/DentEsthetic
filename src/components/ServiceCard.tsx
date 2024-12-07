@@ -15,9 +15,9 @@ const ServiceCard = ({ title, description, icon: Icon }: ServiceCardProps) => {
       </div>
       <h3 className="text-xl font-semibold text-gray-900 mb-2">{title}</h3>
       <p className="text-gray-600 mb-4">{description}</p>
-      <button className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
+      <a href='#appointment' className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
         En savoir plus →
-      </button>
+      </a>
     </div>
   );
 };
